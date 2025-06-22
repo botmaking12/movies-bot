@@ -21,8 +21,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7264137466:AAF1MPi_wftXjoQPNUX3xERdDTJqWLF
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1278626587').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Unknown_person0256") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002593074176'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/southhindimovie476')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002619448981').split()]
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/southhindimovie476'))
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002619448981')).split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tushuu:tushuu@tushuu.uldciov.mongodb.net/?retryWrites=true&w=majority&appName=tushuu")
