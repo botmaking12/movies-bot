@@ -259,7 +259,7 @@ User - {}"""
 
 ! Cut this and Type here Your own plane for exl
 
-1 Month 29 Rupees
+1 Month 1 Rupees
 
  <code> paste here your upi id </code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
